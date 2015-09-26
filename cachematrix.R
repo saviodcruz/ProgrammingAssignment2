@@ -1,5 +1,5 @@
 ## The makeCacheMatrix function createes a list of four functions to set and get a matrix and its inverse.
-## The cacheSolve function checks if the inverse was already computed. If yes, it retrieves it. Otherwise
+## The cacheSolve function checks if the inverse was already computed. If yes, it retrieves it. Otherwise,
 ## it computes the inverse and sets the inverse to cache.
 makeCacheMatrix <- function(x = matrix()) {
        m <- NULL
